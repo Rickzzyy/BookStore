@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body>
+			<body suppressHydrationWarning>
 				<Layout style={{ minHeight: '100vh' }}>
 					<Header>
 						<Menu theme='dark' mode='horizontal' items={items} style={{ flex: 1, minWidth: 0 }} />
